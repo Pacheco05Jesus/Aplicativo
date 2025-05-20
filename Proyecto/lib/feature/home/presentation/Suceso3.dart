@@ -15,20 +15,20 @@ class Succes extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         children: [
           roomCard(
-            imageUrl: 'https://ortizo.com.co/cdn/shop/products/BAJOELECTRICO.png?v=1742397116',
-            title: 'Fender AffitySeries Bass',
-            description: 'Precio: 2.500.000',
+            imageUrl: 'https://yamaha.vtexassets.com/arquivos/ids/158838/C70000000000-1.jpg?v=637816616709130000',
+            title: 'Guitarra Acustica',
+            description: 'Precio: 1.500.000',
           ),
           const SizedBox(height: 16),
           roomCard(
-            imageUrl: 'https://yamaha.vtexassets.com/arquivos/ids/158835-800-auto?v=637816616695330000&width=800&height=auto&aspect=true',
-            title: 'Yamaha 5G',
-            description: 'Precio: 2.000.000',
+            imageUrl: 'https://m.media-amazon.com/images/I/31xu12J6SuL._SR290,290_.jpg',
+            title: 'Yamaha Guitar Electric',
+            description: 'Precio: 1.300.000',
           ),
           const SizedBox(height: 16),
           roomCard(
-            imageUrl: 'https://www.electronicajaponesa.com/wp-content/uploads/2024/03/SAB66.jpg',
-            title: 'Ibanez Xp6',
+            imageUrl: 'https://www.ardemadrid.com/14158-large_default/ltd-ec-256-fm-dbsb-zurdo.jpg',
+            title: 'LTD_ 256',
             description: 'Precio 2.000.000',
           ),
         ],
