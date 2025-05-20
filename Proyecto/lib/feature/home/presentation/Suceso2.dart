@@ -9,27 +9,27 @@ class Succes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pianos'),
+        title: const Text('Bajos'),
       ),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
           roomCard(
-            imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyqy_Wz2dzRh_Wnlr10Y-4ofe5e7MOXgTsmg&s',
-            title: 'Nord Stage 3',
-            description: 'Precio: 5.000.000',
+            imageUrl: 'https://ortizo.com.co/cdn/shop/products/BAJOELECTRICO.png?v=1742397116',
+            title: 'Fender AffitySeries Bass',
+            description: 'Precio: 2.500.000',
           ),
           const SizedBox(height: 16),
           roomCard(
-            imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7_bf2AJFhwzVCMZHuFsLGltMPIY9v-vgZRw&s',
-            title: 'Yamaha MX 88',
-            description: 'Precio 4.500.000',
+            imageUrl: 'https://yamaha.vtexassets.com/arquivos/ids/158835-800-auto?v=637816616695330000&width=800&height=auto&aspect=true',
+            title: 'Yamaha 5G',
+            description: 'Precio: 2.000.000',
           ),
           const SizedBox(height: 16),
           roomCard(
-            imageUrl: 'https://gamamusic.com/cdn/shop/files/XPS30-00.jpg?v=1690317897',
-            title: 'Roland Xps_30',
-            description: 'Precio 4.000.000',
+            imageUrl: 'https://www.electronicajaponesa.com/wp-content/uploads/2024/03/SAB66.jpg',
+            title: 'Ibanez Xp6',
+            description: 'Precio 2.000.000',
           ),
         ],
       ),
